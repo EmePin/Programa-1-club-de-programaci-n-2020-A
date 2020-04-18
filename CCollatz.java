@@ -1,6 +1,6 @@
 
 /**
- * Write a description of class SerieCollatz here.
+ * description of class SerieCollatz here.
  * Realiza un programa que realice la siguiente serie. 
  * Solo debes tener un solo método que retorne un String con la serie solicitada y 
  * su parámetro sea un número entero positivo. 
