@@ -12,7 +12,7 @@ CÓMO INICIAR ESTE PROYECTO: se crea un objeto, se usa el método   CCollatz(), 
 AUTORES: PINEDA NIVÓN AIMÉE JAHDAÍ 19161382 
 
 
-Explicación de cómo hice el programa xdxd:
+Explicación de cómo hice el programa:
 
 Lo primero es identificar peculiaridades en la secuencia
 
