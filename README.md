@@ -3,7 +3,7 @@
 
 TÍTULO DEL PROYECTO: Problema2 
 
-PROPÓSITO DEL PROYECTO: Reforzar la lógica xd 
+PROPÓSITO DEL PROYECTO: Reforzar la lógica 
 
 VERSIÓN o FECHA: 17/04/2020 
 
@@ -23,16 +23,16 @@ Lo primero es identificar peculiaridades en la secuencia
     
     jsjs esto lo supe cuando lo googlee xd :ccc 
     
- De ahí sabemos dos cosas má que nos da el problema
+ De ahí supe dos cosas má que da el problema
      4) sólo acepta números enteros positivos
      5) retorna un String con la serie (lo debemos aceptar en int y regresar en String y para evitar un error de compatibilidad(no sé si se diga así xd) debemos concatenar un espacio en blanco)
      6) Si el número no es positivo, solo retorna el número que se liga al punto número 3) porque si se ingresa el número uno se        
      rotarna 1.
      
- Ahora, lo anterior nos quiere decir que:
+ Ahora, lo anterior para mí  quiere decir que:
      a) necesito un if que sólo acepte números enteros positivos con su respectivo else xd que acepte todo aquel número entero que no cumpla con esa condición es decir que acepte todos os entero negativos y nuestro neutro 0
-     b) ya nos cuidamos del bucle infinito con cero ahora debemos tener cuidado en no etrar en un bucle infinito con 1 es decir     la secuencia debe parar al llegar a 1  esto quiere decir que las instrucciones para que si es par o no.... sólo se van a  ejecutar mientras el numero que nos den se mayor a 1, lo cual suena jsjs a que debemos ocupar un while.
-     c) en las instruciones con un buen if separamos los casos
+     b) ya se cuidó el bucle infinito con cero ahora se debe tener cuidado en no etrar en un bucle infinito con 1 es decir     la secuencia debe parar al llegar a 1  esto quiere decir que las instrucciones para que si es par o no.... sólo se van a  ejecutar mientras el numero que nos den se mayor a 1, lo cual suena  a se debe ocupar un while.
+     c) en las instruciones con un buen if se separan  los casos
      d) y por último debemos recordar que para imprimir la serie debemos estar guardando los valores serie + numero en serie.
      
   Eso es todo :)
