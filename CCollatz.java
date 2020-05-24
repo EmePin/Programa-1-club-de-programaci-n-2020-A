@@ -12,22 +12,8 @@
  */
 public class CCollatz 
 {// inicio de la clase
-   
-    /**
-     * Campos de clase
-       */
+  
 
-    private int numero;// variable global tipo entero que guardará el valor que el usuario ingrese y los que se generen en el proceso hasta llegar a 1 (si es que siempre ) 
-    private String serie;// variable global tipo String( esto con el fin de que el resultado final de la serie sea tipo String) que guardará los valores a imprimir en serie
-    /**
-     * Constuctor para la clase CCollatz 
-       */
-    public CCollatz ()
-    {// inicio del método constructor CerieCollatz 
-        numero = 0;// inicializamos número con valor 0
-        serie = " ";// inicializamos serie con valor de un espacio en blanco jsjs
-    
-    }//fin del método constructor CCollatz 
     /**
      
      * @param numero El parametro numero define el numero que va a acceder el usuario
@@ -36,7 +22,7 @@ public class CCollatz
     public String Serie(int numero)
     {//inicio del método Serie con el parámetro tipo entero número
         
-        serie = numero + " ";// inicializamos la variable serie con el valor del número que se va a ingresar y le concatenamos un espacio vacío para que no dé un error de sintaxis por recibir un int cuando lo declaramos y lo pide el programa como String
+        String serie = numero + " ";// inicializamos la variable serie con el valor del número que se va a ingresar y le concatenamos un espacio vacío para que no dé un error de sintaxis por recibir un int cuando lo declaramos y lo pide el programa como String
         if(numero > 0){// inicio del if con condición que acepta  enteros positivos
             while(numero > 1){//se repite  mientras el numero que ingrese sea mayor a 1; la sentencia while cuya condición evita que se continúe la serie al llegar a uno se evalúa antes de cada vuelta del bucle
                 
@@ -58,4 +44,3 @@ public class CCollatz
         return serie;// devuelve/imprime la serie que se formó con  los números ahora en tipo String
     }// fin del método serie
 } // fin de la clase
-
