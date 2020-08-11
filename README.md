@@ -12,7 +12,7 @@ CÓMO INICIAR ESTE PROYECTO: se crea un objeto, se usa el método   CCollatz(), 
 AUTORES: PINEDA NIVÓN AIMÉE JAHDAÍ 19161382 
 
 
-Explicación de cómo hice el programa:
+#Explicación de cómo hice el programa:
 
 Lo primero es identificar peculiaridades en la secuencia
 
@@ -21,7 +21,7 @@ Lo primero es identificar peculiaridades en la secuencia
    2) si es impar, se le multiplica tres y se le suma uno;
    3) la sucesión termina al llegar a uno.
     
-    jsjs esto lo supe cuando lo googlee xd :ccc 
+   
     
  De ahí supe dos cosas má que da el problema
      4) sólo acepta números enteros positivos
